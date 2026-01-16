@@ -1,0 +1,33 @@
+---
+---
+
+$brand-color:       #00FF00;
+$background-color:  #000000;
+$text-color:        #FFFFFF;
+
+$link-base-color:   $brand-color;
+$link-visited-color: darken($brand-color, 15%);
+
+@import "minima";
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 24px;
+  background-color: $brand-color;
+  color: #000000 !important;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid $brand-color;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: $brand-color !important;
+}

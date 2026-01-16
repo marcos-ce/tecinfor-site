@@ -1,0 +1,14 @@
+# Configurações do Site
+title: Tech Infor Assistência
+email: smarcos.ce@gmail.com
+description: >-
+  Soluções rápidas para seu PC. Siga no Instagram: @tech.infor.assistencia
+baseurl: ""
+url: ""
+
+# Redes Sociais
+github_username: marcos-ce
+
+theme: minima
+plugins:
+  - jekyll-feed
